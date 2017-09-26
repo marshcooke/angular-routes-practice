@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="vendors/angular.min.js"></script>
+    <script src="vendors/angular-route.min.js"></script>
+    <script src="scripts/client.js"></script>
+    <script src="scripts/controllers/bb-8.controller.js"></script>
+    <script src="scripts/controllers/musketeers.controller.js"></script>
+    <script src="scripts/controllers/toothless.controller.js"></script>
+    <script src="scripts/controllers/doctor.controller.js"></script>
+    <script src="scripts/controllers/home.controller.js"></script>
+
+    <link rel="stylesheet" href="styles/style.css">
+
+    <title>Document</title>
+</head>
+
+<body ng-app="myApp">
+    <header>Fictional Characters.. aka friends!
+
+    <nav>
+        <ul>
+            <li><a href="#!/">Home</a></li>
+            <li><a href="#!/toothless">Toothless</a></li>
+            <li><a href="#!/BB-8">BB-8</a></li>
+            <li><a href="#!/doctor">The Eleventh Doctor</a></li>
+            <li><a href="#!/musketeers">The Three Musketeers</a></li>
+        </ul>
+    </nav>
+</header>
+
+    <ng-view></ng-view>
+</body>
+
+</html>
