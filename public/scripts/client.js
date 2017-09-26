@@ -21,5 +21,9 @@ myApp.config(function($routeProvider) {
         templateUrl: 'views/musketeers.html',
         controller: 'MusketeersController',
         controllerAs: 'as MC'
+    }).when('/anakin', {
+        templateUrl: 'views/anakin.html',
+        controller: 'AnakinController',
+        controllerAs: 'as AC'
     }).otherwise({redirectTo: '/'});
 });
